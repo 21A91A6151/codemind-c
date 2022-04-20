@@ -1,17 +1,19 @@
-#include <stdio.h>
-
+#include<stdio.h>
+#include<math.h>
 int main()
 {
-    int a, n;
-    scanf("%d", &n);
-    for(a = 0; a <= n; a++)
+    int n,i,m;
+    float z;
+    scanf("%d",&n);
+    z=sqrt(n);
+    m=z;
+    if(m==z)
     {
-        if (n == a * a)
-        {
-            printf("True");
-            return 0;
-        }
+        printf("True");
     }
-    printf("False");
+    else
+    {
+        printf("False");
+    }
     return 0;
-}   
+}
