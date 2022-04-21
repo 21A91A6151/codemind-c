@@ -2,7 +2,7 @@
 #include<math.h>
 int main()
 {
-    int n,i,c=0,temp,d,p=0;
+    int n,d,c=0,temp,s=0;
     scanf("%d",&n);
     temp=n;
     while(temp!=0)
@@ -16,10 +16,10 @@ int main()
     {
         d=temp%10;
         temp=temp/10;
-        p=p+pow(d,c);
+        s=s+pow(d,c);
         c--;
     }
-    if(p==n)
+    if(n==s)
     {
         printf("True");
     }
