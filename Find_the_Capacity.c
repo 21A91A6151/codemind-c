@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int s,t,b,c;
-    scanf("%d%d%d",&s,&t,&b);
-    c=(2*s*t*b*512)/1024;
-    printf("%dKB",c);
+    int a,b,c,cap=0,total=0;
+    scanf("%d%d%d",&a,&b,&c);
+    cap=2*a*b*c*512;
+    total=cap/1024;
+    printf("%dKB",total);
     return 0;
 }
