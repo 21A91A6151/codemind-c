@@ -40,17 +40,14 @@ int main()
     }
     if((n-b)==(a-n))
     {
-        printf("%d %d
-",b,a);
+        printf("%d %d",b,a);
     }
     else if((n-b)<(a-n))
     {
-        printf("%d
-",b);
+        printf("%d",b);
     }
     else
     {
-        printf("%d
-",a);
+        printf("%d",a);
     }
 }
